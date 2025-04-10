@@ -4,25 +4,26 @@ import cors from 'cors';
 import helmet from 'helmet';
 import userRoutes from './Routes/userRoutes';
 import doctorRouter from './Routes/DoctorRoutes';
-
-
+import dotenv from 'dotenv';
 
 const app = express();
+dotenv.config();
 const port = process.env.PORT || 3000;
+const DB:string| undefined = process.env.MONGO_URI;
 
-// Middleware
 app.use(cors());
 app.use(helmet());
-app.use(express.json()); // For parsing application/json
+app.use(express.json()); 
 
-// MongoDB Connection (replace with your connection string)
-const mongoUri = 'mongodb://localhost:27017/TMCP';
+if (DB) {
+  mongoose.connect(DB)
+    .then(() => console.log('Connected to MongoDB'))
+    .catch((err) => console.log('MongoDB connection error:', err));
+} else {
+  console.error('MongoDB connection string is not defined in the environment variables.');
+  process.exit(1);
+}
 
-mongoose.connect(mongoUri)
-  .then(() => console.log('Connected to MongoDB'))
-  .catch((err) => console.log('MongoDB connection error:', err));
-
-// Basic route
 app.get('/', (req: Request, res: Response) => {
   res.send('Express server with TypeScript!');
 });

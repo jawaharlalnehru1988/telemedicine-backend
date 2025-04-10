@@ -1,10 +1,14 @@
 import  jwt  from 'jsonwebtoken';
 import Doctor, { IDoctor } from './../Schema/DoctorSchema';
 import  bcrypt  from 'bcrypt-ts';
-import { Environment } from '../Config/Environment';
-import { logger } from '../Utils/Logger'; // Import logger as named export
+import { logger } from '../Utils/Logger'; 
+import dotenv from 'dotenv';
+dotenv.config();
+
 
 class DoctorService {
+   secret: string = process.env.JWT_SECRET || (() => { throw new Error("JWT_SECRET is not defined in environment variables"); })();
+
     async registerDoctor(doctorData: IDoctor): Promise<any> {
         logger.info('Attempting to register a new doctor');
         try {
@@ -35,7 +39,7 @@ class DoctorService {
             throw new Error("Invalid email or password");
             
             }
-            const token = jwt.sign({user}, Environment.JWT_SECRET, {expiresIn: "1h"});
+            const token = jwt.sign({user}, this.secret, {expiresIn: "1h"});
             return token;
         } catch (error:any) {
             throw new Error(`Login failed: ${error.message}`)

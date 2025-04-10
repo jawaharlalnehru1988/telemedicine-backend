@@ -1,8 +1,10 @@
 import bcrypt from 'bcrypt-ts';
 import Patient, {IPatient} from '../Schema/PatientSchema';
-import { Environment } from '../Config/Environment';
 import jwt from "jsonwebtoken";
+import dotenv from 'dotenv';
+dotenv.config();
 
+const secret = process.env.JWT_SECRET;
 
 class UserService {
   async register(userData: any): Promise<any> {
@@ -28,7 +30,10 @@ class UserService {
         throw new Error('Invalid email or password');
       }
 
-      const token = jwt.sign({ user }, Environment.JWT_SECRET, { expiresIn: '1h' });
+      if (!secret) {
+        throw new Error('JWT_SECRET is not defined in environment variables');
+      }
+      const token = jwt.sign({ user }, secret, { expiresIn: '1h' });
       return token;
     } catch (error: any) {
       throw new Error(`Login failed: ${error.message}`);
