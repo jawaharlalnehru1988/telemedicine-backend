@@ -1,0 +1,77 @@
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T11:48:52.351Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T11:48:52.425Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T11:51:00.797Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T11:51:00.848Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T11:52:26.258Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T11:52:26.312Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T11:53:06.616Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T11:53:06.694Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T11:57:34.399Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T11:57:34.459Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T12:00:47.245Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T12:00:47.324Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T12:03:59.613Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T12:03:59.671Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T12:07:04.337Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T12:07:04.399Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-08T12:22:39.843Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-08T12:22:39.916Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T07:17:58.346Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T07:17:58.420Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T07:23:27.861Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T07:23:27.943Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:01:48.990Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:01:49.023Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:02:57.629Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:02:57.660Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:13:11.567Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:13:11.596Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:25:16.771Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:25:16.837Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:30:29.595Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:30:29.622Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:36:34.792Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:36:34.832Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:36:54.640Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:36:54.666Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:37:13.903Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:37:13.938Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:39:52.162Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:39:52.209Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:40:23.391Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:40:23.417Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:41:17.800Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:41:17.825Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:45:06.507Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:45:06.530Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:53:28.791Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:53:28.814Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T10:54:59.261Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T10:54:59.294Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T11:00:14.677Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T11:00:14.712Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T11:24:04.518Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T11:24:04.543Z"}
+{"level":"info","message":"Server is running on http://localhost:3000","timestamp":"2025-04-09T11:41:42.020Z"}
+{"level":"info","message":"Connected to MongoDB","timestamp":"2025-04-09T11:41:42.048Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T12:51:36.430Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"ragava@gmail.com\" }","index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"ragava@gmail.com"}},"index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"ragava@gmail.com"},"level":"error","message":"Error during doctor registration: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"ragava@gmail.com\" }","stack":"MongoServerError: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"ragava@gmail.com\" }\n    at InsertOneOperation.execute (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:283:14)\n    at async executeOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:115:12)\n    at async Collection.insertOne (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\collection.ts:285:12)","timestamp":"2025-04-09T12:51:37.054Z"}
+{"level":"warn","message":"Registration failed due to duplicate email or doctorId","timestamp":"2025-04-09T12:51:37.063Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T12:51:54.246Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"ragava@gmail.com\" }","index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"ragava@gmail.com"}},"index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"ragava@gmail.com"},"level":"error","message":"Error during doctor registration: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"ragava@gmail.com\" }","stack":"MongoServerError: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"ragava@gmail.com\" }\n    at InsertOneOperation.execute (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:283:14)\n    at async executeOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:115:12)\n    at async Collection.insertOne (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\collection.ts:285:12)","timestamp":"2025-04-09T12:51:54.749Z"}
+{"level":"warn","message":"Registration failed due to duplicate email or doctorId","timestamp":"2025-04-09T12:51:54.757Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T12:52:42.548Z"}
+{"level":"info","message":"Doctor registered successfully with doctorId: Doctor123","timestamp":"2025-04-09T12:52:42.924Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T13:07:48.013Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: TMCP.doctors index: doctorId_1 dup key: { doctorId: \"Doctor123\" }","index":0,"keyPattern":{"doctorId":1},"keyValue":{"doctorId":"Doctor123"}},"index":0,"keyPattern":{"doctorId":1},"keyValue":{"doctorId":"Doctor123"},"level":"error","message":"Error during doctor registration: E11000 duplicate key error collection: TMCP.doctors index: doctorId_1 dup key: { doctorId: \"Doctor123\" }","stack":"MongoServerError: E11000 duplicate key error collection: TMCP.doctors index: doctorId_1 dup key: { doctorId: \"Doctor123\" }\n    at InsertOneOperation.execute (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:283:14)\n    at async executeOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:115:12)\n    at async Collection.insertOne (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\collection.ts:285:12)","timestamp":"2025-04-09T13:07:48.469Z"}
+{"level":"warn","message":"Registration failed due to duplicate email or doctorId","timestamp":"2025-04-09T13:07:48.473Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T13:08:26.494Z"}
+{"level":"info","message":"Doctor registered successfully with doctorId: Doctor234","timestamp":"2025-04-09T13:08:26.842Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T13:29:14.920Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"sridharan@gmail.com\" }","index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"sridharan@gmail.com"}},"index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"sridharan@gmail.com"},"level":"error","message":"Error during doctor registration: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"sridharan@gmail.com\" }","stack":"MongoServerError: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"sridharan@gmail.com\" }\n    at InsertOneOperation.execute (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:283:14)\n    at async executeOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:115:12)\n    at async Collection.insertOne (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\collection.ts:285:12)","timestamp":"2025-04-09T13:29:15.128Z"}
+{"level":"warn","message":"Registration failed due to duplicate email or doctorId","timestamp":"2025-04-09T13:29:15.132Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T13:29:28.571Z"}
+{"code":11000,"errorLabelSet":{},"errorResponse":{"code":11000,"errmsg":"E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"sridharan@gmail.com\" }","index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"sridharan@gmail.com"}},"index":0,"keyPattern":{"dremail":1},"keyValue":{"dremail":"sridharan@gmail.com"},"level":"error","message":"Error during doctor registration: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"sridharan@gmail.com\" }","stack":"MongoServerError: E11000 duplicate key error collection: TMCP.doctors index: dremail_1 dup key: { dremail: \"sridharan@gmail.com\" }\n    at InsertOneOperation.execute (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\insert.ts:88:13)\n    at processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async tryOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:283:14)\n    at async executeOperation (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\operations\\execute_operation.ts:115:12)\n    at async Collection.insertOne (C:\\Trainings\\Telemedicine-Consulting-platform\\node_modules\\mongodb\\src\\collection.ts:285:12)","timestamp":"2025-04-09T13:29:28.673Z"}
+{"level":"warn","message":"Registration failed due to duplicate email or doctorId","timestamp":"2025-04-09T13:29:28.677Z"}
+{"level":"info","message":"Attempting to register a new doctor","timestamp":"2025-04-09T13:30:23.370Z"}
+{"level":"info","message":"Doctor registered successfully with doctorId: Doctor654","timestamp":"2025-04-09T13:30:23.486Z"}
